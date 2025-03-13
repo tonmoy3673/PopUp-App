@@ -44,7 +44,41 @@ body{
     padding: 15px 20px;
 
 }
+.container{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 8PX;
+
+}
 
 .icon{
-    width: 60px;
+    width: 80px;
+    margin-top: -60PX;
+}
+.title{
+    font-weight: 500;
+    color: #262726;
+}
+.body-text{
+    font-size: 0.9REM;
+    text-align: center;
+    color: #262726;
+}
+#btn-ok{
+    padding:7px 12px;
+    border: 1px solid transparent;
+    outline: 0;
+    background: #56f41d;
+    color: #262726;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+#btn-ok:hover{
+    background: #f39c12;
+    border: 1px solid #f39c12;
+    color: #f2f2f2;
 }
